@@ -1,0 +1,59 @@
+
+
+.header{
+    width: 950px;
+    height: 90px;
+    margin: 40px auto 0;
+    background: #EAF6FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #252B42;
+    font-family: Arial, sans-serif;
+}
+
+.nav{
+    display: flex;
+    gap: 35px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login{
+    text-decoration: none;
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.join-btn{
+    width: 137px;
+    height: 52px;
+    border: none;
+    background: #96BB7C;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
